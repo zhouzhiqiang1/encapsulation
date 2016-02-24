@@ -60,6 +60,13 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+//点击背景隐藏键盘
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [self.view endEditing:YES];
+}
+
 #pragma mark -- Action
 - (IBAction)validationBtnCLick:(id)sender {
        [self.validationBtn reset];
