@@ -15,13 +15,13 @@
 		DD22BBFC1D6E9184004EF4BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD22BBFA1D6E9184004EF4BF /* LaunchScreen.storyboard */; };
 		DD22BC071D6E9184004EF4BF /* StoryboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22BC061D6E9184004EF4BF /* StoryboardTests.m */; };
 		DD22BC121D6E9184004EF4BF /* StoryboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22BC111D6E9184004EF4BF /* StoryboardUITests.m */; };
-		DD22BC251D6E9225004EF4BF /* GSNoSelectionTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22BC221D6E9225004EF4BF /* GSNoSelectionTextField.m */; };
-		DD22BC261D6E9225004EF4BF /* GSPasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22BC241D6E9225004EF4BF /* GSPasswordInputView.m */; };
-		DD22BC2A1D6E9259004EF4BF /* YDCustomBorderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22BC291D6E9259004EF4BF /* YDCustomBorderLabel.m */; };
-		DD22BC2E1D6E9296004EF4BF /* UIColor+UIColor_Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22BC2D1D6E9296004EF4BF /* UIColor+UIColor_Hex.m */; };
-		DD22BC321D6E92C3004EF4BF /* GSCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22BC311D6E92C3004EF4BF /* GSCountDownButton.m */; };
-		DD22BC361D6E92DF004EF4BF /* GSCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22BC351D6E92DF004EF4BF /* GSCustomButton.m */; };
-		DD22BC3A1D6E9308004EF4BF /* GSCusteomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22BC391D6E9308004EF4BF /* GSCusteomTextField.m */; };
+		DD22BC3D1D6E98FD004EF4BF /* GSCusteomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22BC3C1D6E98FD004EF4BF /* GSCusteomTextField.m */; };
+		DD22BC401D6E9909004EF4BF /* GSCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22BC3F1D6E9909004EF4BF /* GSCustomButton.m */; };
+		DD22BC431D6E9917004EF4BF /* GSCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22BC421D6E9917004EF4BF /* GSCountDownButton.m */; };
+		DD22BC461D6E9927004EF4BF /* UIColor+UIColor_Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22BC451D6E9927004EF4BF /* UIColor+UIColor_Hex.m */; };
+		DD22BC491D6E9931004EF4BF /* YDCustomBorderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22BC481D6E9931004EF4BF /* YDCustomBorderLabel.m */; };
+		DD22BC4E1D6E993C004EF4BF /* GSNoSelectionTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22BC4B1D6E993C004EF4BF /* GSNoSelectionTextField.m */; };
+		DD22BC4F1D6E993C004EF4BF /* GSPasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22BC4D1D6E993C004EF4BF /* GSPasswordInputView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,20 +58,20 @@
 		DD22BC0D1D6E9184004EF4BF /* StoryboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD22BC111D6E9184004EF4BF /* StoryboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardUITests.m; sourceTree = "<group>"; };
 		DD22BC131D6E9184004EF4BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD22BC211D6E9225004EF4BF /* GSNoSelectionTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSNoSelectionTextField.h; path = StoryboardEncapsulation/PayTreasure/GSNoSelectionTextField.h; sourceTree = "<group>"; };
-		DD22BC221D6E9225004EF4BF /* GSNoSelectionTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSNoSelectionTextField.m; path = StoryboardEncapsulation/PayTreasure/GSNoSelectionTextField.m; sourceTree = "<group>"; };
-		DD22BC231D6E9225004EF4BF /* GSPasswordInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSPasswordInputView.h; path = StoryboardEncapsulation/PayTreasure/GSPasswordInputView.h; sourceTree = "<group>"; };
-		DD22BC241D6E9225004EF4BF /* GSPasswordInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSPasswordInputView.m; path = StoryboardEncapsulation/PayTreasure/GSPasswordInputView.m; sourceTree = "<group>"; };
-		DD22BC281D6E9259004EF4BF /* YDCustomBorderLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YDCustomBorderLabel.h; path = StoryboardEncapsulation/Label/YDCustomBorderLabel.h; sourceTree = "<group>"; };
-		DD22BC291D6E9259004EF4BF /* YDCustomBorderLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YDCustomBorderLabel.m; path = StoryboardEncapsulation/Label/YDCustomBorderLabel.m; sourceTree = "<group>"; };
-		DD22BC2C1D6E9296004EF4BF /* UIColor+UIColor_Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+UIColor_Hex.h"; path = "StoryboardEncapsulation/UIColor/UIColor+UIColor_Hex.h"; sourceTree = "<group>"; };
-		DD22BC2D1D6E9296004EF4BF /* UIColor+UIColor_Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+UIColor_Hex.m"; path = "StoryboardEncapsulation/UIColor/UIColor+UIColor_Hex.m"; sourceTree = "<group>"; };
-		DD22BC301D6E92C3004EF4BF /* GSCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSCountDownButton.h; path = StoryboardEncapsulation/Validation/GSCountDownButton.h; sourceTree = "<group>"; };
-		DD22BC311D6E92C3004EF4BF /* GSCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSCountDownButton.m; path = StoryboardEncapsulation/Validation/GSCountDownButton.m; sourceTree = "<group>"; };
-		DD22BC341D6E92DF004EF4BF /* GSCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSCustomButton.h; path = StoryboardEncapsulation/Button/GSCustomButton.h; sourceTree = "<group>"; };
-		DD22BC351D6E92DF004EF4BF /* GSCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSCustomButton.m; path = StoryboardEncapsulation/Button/GSCustomButton.m; sourceTree = "<group>"; };
-		DD22BC381D6E9308004EF4BF /* GSCusteomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSCusteomTextField.h; path = StoryboardEncapsulation/TextFiend/GSCusteomTextField.h; sourceTree = "<group>"; };
-		DD22BC391D6E9308004EF4BF /* GSCusteomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSCusteomTextField.m; path = StoryboardEncapsulation/TextFiend/GSCusteomTextField.m; sourceTree = "<group>"; };
+		DD22BC3B1D6E98FD004EF4BF /* GSCusteomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSCusteomTextField.h; path = StoryboardEncapsulation/GSCusteomTextField.h; sourceTree = "<group>"; };
+		DD22BC3C1D6E98FD004EF4BF /* GSCusteomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSCusteomTextField.m; path = StoryboardEncapsulation/GSCusteomTextField.m; sourceTree = "<group>"; };
+		DD22BC3E1D6E9909004EF4BF /* GSCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSCustomButton.h; path = StoryboardEncapsulation/GSCustomButton.h; sourceTree = "<group>"; };
+		DD22BC3F1D6E9909004EF4BF /* GSCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSCustomButton.m; path = StoryboardEncapsulation/GSCustomButton.m; sourceTree = "<group>"; };
+		DD22BC411D6E9917004EF4BF /* GSCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSCountDownButton.h; path = StoryboardEncapsulation/GSCountDownButton.h; sourceTree = "<group>"; };
+		DD22BC421D6E9917004EF4BF /* GSCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSCountDownButton.m; path = StoryboardEncapsulation/GSCountDownButton.m; sourceTree = "<group>"; };
+		DD22BC441D6E9927004EF4BF /* UIColor+UIColor_Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+UIColor_Hex.h"; path = "StoryboardEncapsulation/UIColor+UIColor_Hex.h"; sourceTree = "<group>"; };
+		DD22BC451D6E9927004EF4BF /* UIColor+UIColor_Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+UIColor_Hex.m"; path = "StoryboardEncapsulation/UIColor+UIColor_Hex.m"; sourceTree = "<group>"; };
+		DD22BC471D6E9931004EF4BF /* YDCustomBorderLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YDCustomBorderLabel.h; path = StoryboardEncapsulation/YDCustomBorderLabel.h; sourceTree = "<group>"; };
+		DD22BC481D6E9931004EF4BF /* YDCustomBorderLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YDCustomBorderLabel.m; path = StoryboardEncapsulation/YDCustomBorderLabel.m; sourceTree = "<group>"; };
+		DD22BC4A1D6E993C004EF4BF /* GSNoSelectionTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSNoSelectionTextField.h; path = StoryboardEncapsulation/GSNoSelectionTextField.h; sourceTree = "<group>"; };
+		DD22BC4B1D6E993C004EF4BF /* GSNoSelectionTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSNoSelectionTextField.m; path = StoryboardEncapsulation/GSNoSelectionTextField.m; sourceTree = "<group>"; };
+		DD22BC4C1D6E993C004EF4BF /* GSPasswordInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSPasswordInputView.h; path = StoryboardEncapsulation/GSPasswordInputView.h; sourceTree = "<group>"; };
+		DD22BC4D1D6E993C004EF4BF /* GSPasswordInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSPasswordInputView.m; path = StoryboardEncapsulation/GSPasswordInputView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,10 +178,10 @@
 		DD22BC201D6E91FC004EF4BF /* PayTreasure */ = {
 			isa = PBXGroup;
 			children = (
-				DD22BC211D6E9225004EF4BF /* GSNoSelectionTextField.h */,
-				DD22BC221D6E9225004EF4BF /* GSNoSelectionTextField.m */,
-				DD22BC231D6E9225004EF4BF /* GSPasswordInputView.h */,
-				DD22BC241D6E9225004EF4BF /* GSPasswordInputView.m */,
+				DD22BC4A1D6E993C004EF4BF /* GSNoSelectionTextField.h */,
+				DD22BC4B1D6E993C004EF4BF /* GSNoSelectionTextField.m */,
+				DD22BC4C1D6E993C004EF4BF /* GSPasswordInputView.h */,
+				DD22BC4D1D6E993C004EF4BF /* GSPasswordInputView.m */,
 			);
 			name = PayTreasure;
 			sourceTree = "<group>";
@@ -189,8 +189,8 @@
 		DD22BC271D6E924E004EF4BF /* Label */ = {
 			isa = PBXGroup;
 			children = (
-				DD22BC281D6E9259004EF4BF /* YDCustomBorderLabel.h */,
-				DD22BC291D6E9259004EF4BF /* YDCustomBorderLabel.m */,
+				DD22BC471D6E9931004EF4BF /* YDCustomBorderLabel.h */,
+				DD22BC481D6E9931004EF4BF /* YDCustomBorderLabel.m */,
 			);
 			name = Label;
 			sourceTree = "<group>";
@@ -198,8 +198,8 @@
 		DD22BC2B1D6E9285004EF4BF /* UIColor */ = {
 			isa = PBXGroup;
 			children = (
-				DD22BC2C1D6E9296004EF4BF /* UIColor+UIColor_Hex.h */,
-				DD22BC2D1D6E9296004EF4BF /* UIColor+UIColor_Hex.m */,
+				DD22BC441D6E9927004EF4BF /* UIColor+UIColor_Hex.h */,
+				DD22BC451D6E9927004EF4BF /* UIColor+UIColor_Hex.m */,
 			);
 			name = UIColor;
 			sourceTree = "<group>";
@@ -207,8 +207,8 @@
 		DD22BC2F1D6E92B9004EF4BF /* Validation */ = {
 			isa = PBXGroup;
 			children = (
-				DD22BC301D6E92C3004EF4BF /* GSCountDownButton.h */,
-				DD22BC311D6E92C3004EF4BF /* GSCountDownButton.m */,
+				DD22BC411D6E9917004EF4BF /* GSCountDownButton.h */,
+				DD22BC421D6E9917004EF4BF /* GSCountDownButton.m */,
 			);
 			name = Validation;
 			sourceTree = "<group>";
@@ -216,8 +216,8 @@
 		DD22BC331D6E92D5004EF4BF /* Button */ = {
 			isa = PBXGroup;
 			children = (
-				DD22BC341D6E92DF004EF4BF /* GSCustomButton.h */,
-				DD22BC351D6E92DF004EF4BF /* GSCustomButton.m */,
+				DD22BC3E1D6E9909004EF4BF /* GSCustomButton.h */,
+				DD22BC3F1D6E9909004EF4BF /* GSCustomButton.m */,
 			);
 			name = Button;
 			sourceTree = "<group>";
@@ -225,8 +225,8 @@
 		DD22BC371D6E92FC004EF4BF /* TextFiend */ = {
 			isa = PBXGroup;
 			children = (
-				DD22BC381D6E9308004EF4BF /* GSCusteomTextField.h */,
-				DD22BC391D6E9308004EF4BF /* GSCusteomTextField.m */,
+				DD22BC3B1D6E98FD004EF4BF /* GSCusteomTextField.h */,
+				DD22BC3C1D6E98FD004EF4BF /* GSCusteomTextField.m */,
 			);
 			name = TextFiend;
 			sourceTree = "<group>";
@@ -361,16 +361,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD22BC491D6E9931004EF4BF /* YDCustomBorderLabel.m in Sources */,
 				DD22BBF41D6E9184004EF4BF /* ViewController.m in Sources */,
-				DD22BC251D6E9225004EF4BF /* GSNoSelectionTextField.m in Sources */,
-				DD22BC2A1D6E9259004EF4BF /* YDCustomBorderLabel.m in Sources */,
+				DD22BC431D6E9917004EF4BF /* GSCountDownButton.m in Sources */,
 				DD22BBF11D6E9184004EF4BF /* AppDelegate.m in Sources */,
-				DD22BC3A1D6E9308004EF4BF /* GSCusteomTextField.m in Sources */,
-				DD22BC2E1D6E9296004EF4BF /* UIColor+UIColor_Hex.m in Sources */,
-				DD22BC321D6E92C3004EF4BF /* GSCountDownButton.m in Sources */,
-				DD22BC261D6E9225004EF4BF /* GSPasswordInputView.m in Sources */,
+				DD22BC461D6E9927004EF4BF /* UIColor+UIColor_Hex.m in Sources */,
+				DD22BC3D1D6E98FD004EF4BF /* GSCusteomTextField.m in Sources */,
+				DD22BC401D6E9909004EF4BF /* GSCustomButton.m in Sources */,
 				DD22BBEE1D6E9184004EF4BF /* main.m in Sources */,
-				DD22BC361D6E92DF004EF4BF /* GSCustomButton.m in Sources */,
+				DD22BC4F1D6E993C004EF4BF /* GSPasswordInputView.m in Sources */,
+				DD22BC4E1D6E993C004EF4BF /* GSNoSelectionTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
