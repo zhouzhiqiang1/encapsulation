@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/zhouzhiqiang1/encapsulation.git", :tag => s.version }
 
-  s.source_files  = "StoryboardEncapsulation/**/*{h,m}"
+  s.source_files  = "StoryboardEncapsulation/**/*.{h,m}"
   
   s.requires_arc = true
 end
