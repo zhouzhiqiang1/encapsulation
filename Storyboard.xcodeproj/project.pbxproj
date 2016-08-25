@@ -512,6 +512,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Storyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Umeng.Storyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -523,6 +524,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Storyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Umeng.Storyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -594,6 +596,7 @@
 				DD22BC181D6E9184004EF4BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD22BC191D6E9184004EF4BF /* Build configuration list for PBXNativeTarget "StoryboardTests" */ = {
 			isa = XCConfigurationList;
@@ -602,6 +605,7 @@
 				DD22BC1B1D6E9184004EF4BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD22BC1C1D6E9184004EF4BF /* Build configuration list for PBXNativeTarget "StoryboardUITests" */ = {
 			isa = XCConfigurationList;
@@ -610,6 +614,7 @@
 				DD22BC1E1D6E9184004EF4BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
