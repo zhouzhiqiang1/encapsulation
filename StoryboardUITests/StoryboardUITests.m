@@ -1,18 +1,18 @@
 //
-//  StoryBpardUITests.m
-//  StoryBpardUITests
+//  StoryboardUITests.m
+//  StoryboardUITests
 //
-//  Created by r_zhou on 15/11/10.
-//  Copyright © 2015年 r_zhou. All rights reserved.
+//  Created by r_zhou on 16/8/25.
+//  Copyright © 2016年 r_zhous. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface StoryBpardUITests : XCTestCase
+@interface StoryboardUITests : XCTestCase
 
 @end
 
-@implementation StoryBpardUITests
+@implementation StoryboardUITests
 
 - (void)setUp {
     [super setUp];

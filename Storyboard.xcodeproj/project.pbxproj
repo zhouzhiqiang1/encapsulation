@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD22BBEE1D6E9184004EF4BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22BBED1D6E9184004EF4BF /* main.m */; };
+		DD22BBF11D6E9184004EF4BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22BBF01D6E9184004EF4BF /* AppDelegate.m */; };
+		DD22BBF41D6E9184004EF4BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22BBF31D6E9184004EF4BF /* ViewController.m */; };
+		DD22BBF71D6E9184004EF4BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD22BBF51D6E9184004EF4BF /* Main.storyboard */; };
+		DD22BBF91D6E9184004EF4BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD22BBF81D6E9184004EF4BF /* Assets.xcassets */; };
+		DD22BBFC1D6E9184004EF4BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD22BBFA1D6E9184004EF4BF /* LaunchScreen.storyboard */; };
+		DD22BC071D6E9184004EF4BF /* StoryboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22BC061D6E9184004EF4BF /* StoryboardTests.m */; };
+		DD22BC121D6E9184004EF4BF /* StoryboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22BC111D6E9184004EF4BF /* StoryboardUITests.m */; };
+		DD22BC251D6E9225004EF4BF /* GSNoSelectionTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22BC221D6E9225004EF4BF /* GSNoSelectionTextField.m */; };
+		DD22BC261D6E9225004EF4BF /* GSPasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22BC241D6E9225004EF4BF /* GSPasswordInputView.m */; };
+		DD22BC2A1D6E9259004EF4BF /* YDCustomBorderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22BC291D6E9259004EF4BF /* YDCustomBorderLabel.m */; };
+		DD22BC2E1D6E9296004EF4BF /* UIColor+UIColor_Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22BC2D1D6E9296004EF4BF /* UIColor+UIColor_Hex.m */; };
+		DD22BC321D6E92C3004EF4BF /* GSCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22BC311D6E92C3004EF4BF /* GSCountDownButton.m */; };
+		DD22BC361D6E92DF004EF4BF /* GSCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22BC351D6E92DF004EF4BF /* GSCustomButton.m */; };
+		DD22BC3A1D6E9308004EF4BF /* GSCusteomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22BC391D6E9308004EF4BF /* GSCusteomTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD22BC031D6E9184004EF4BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD22BBE11D6E9184004EF4BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD22BBE81D6E9184004EF4BF;
+			remoteInfo = Storyboard;
+		};
+		DD22BC0E1D6E9184004EF4BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD22BBE11D6E9184004EF4BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD22BBE81D6E9184004EF4BF;
+			remoteInfo = Storyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD22BBE91D6E9184004EF4BF /* Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Storyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD22BBED1D6E9184004EF4BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD22BBEF1D6E9184004EF4BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD22BBF01D6E9184004EF4BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD22BBF21D6E9184004EF4BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD22BBF31D6E9184004EF4BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD22BBF61D6E9184004EF4BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD22BBF81D6E9184004EF4BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD22BBFB1D6E9184004EF4BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD22BBFD1D6E9184004EF4BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD22BC021D6E9184004EF4BF /* StoryboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD22BC061D6E9184004EF4BF /* StoryboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardTests.m; sourceTree = "<group>"; };
+		DD22BC081D6E9184004EF4BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD22BC0D1D6E9184004EF4BF /* StoryboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD22BC111D6E9184004EF4BF /* StoryboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardUITests.m; sourceTree = "<group>"; };
+		DD22BC131D6E9184004EF4BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD22BC211D6E9225004EF4BF /* GSNoSelectionTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSNoSelectionTextField.h; path = StoryboardEncapsulation/PayTreasure/GSNoSelectionTextField.h; sourceTree = "<group>"; };
+		DD22BC221D6E9225004EF4BF /* GSNoSelectionTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSNoSelectionTextField.m; path = StoryboardEncapsulation/PayTreasure/GSNoSelectionTextField.m; sourceTree = "<group>"; };
+		DD22BC231D6E9225004EF4BF /* GSPasswordInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSPasswordInputView.h; path = StoryboardEncapsulation/PayTreasure/GSPasswordInputView.h; sourceTree = "<group>"; };
+		DD22BC241D6E9225004EF4BF /* GSPasswordInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSPasswordInputView.m; path = StoryboardEncapsulation/PayTreasure/GSPasswordInputView.m; sourceTree = "<group>"; };
+		DD22BC281D6E9259004EF4BF /* YDCustomBorderLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YDCustomBorderLabel.h; path = StoryboardEncapsulation/Label/YDCustomBorderLabel.h; sourceTree = "<group>"; };
+		DD22BC291D6E9259004EF4BF /* YDCustomBorderLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YDCustomBorderLabel.m; path = StoryboardEncapsulation/Label/YDCustomBorderLabel.m; sourceTree = "<group>"; };
+		DD22BC2C1D6E9296004EF4BF /* UIColor+UIColor_Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+UIColor_Hex.h"; path = "StoryboardEncapsulation/UIColor/UIColor+UIColor_Hex.h"; sourceTree = "<group>"; };
+		DD22BC2D1D6E9296004EF4BF /* UIColor+UIColor_Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+UIColor_Hex.m"; path = "StoryboardEncapsulation/UIColor/UIColor+UIColor_Hex.m"; sourceTree = "<group>"; };
+		DD22BC301D6E92C3004EF4BF /* GSCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSCountDownButton.h; path = StoryboardEncapsulation/Validation/GSCountDownButton.h; sourceTree = "<group>"; };
+		DD22BC311D6E92C3004EF4BF /* GSCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSCountDownButton.m; path = StoryboardEncapsulation/Validation/GSCountDownButton.m; sourceTree = "<group>"; };
+		DD22BC341D6E92DF004EF4BF /* GSCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSCustomButton.h; path = StoryboardEncapsulation/Button/GSCustomButton.h; sourceTree = "<group>"; };
+		DD22BC351D6E92DF004EF4BF /* GSCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSCustomButton.m; path = StoryboardEncapsulation/Button/GSCustomButton.m; sourceTree = "<group>"; };
+		DD22BC381D6E9308004EF4BF /* GSCusteomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSCusteomTextField.h; path = StoryboardEncapsulation/TextFiend/GSCusteomTextField.h; sourceTree = "<group>"; };
+		DD22BC391D6E9308004EF4BF /* GSCusteomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSCusteomTextField.m; path = StoryboardEncapsulation/TextFiend/GSCusteomTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD22BBE61D6E9184004EF4BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD22BBFF1D6E9184004EF4BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD22BC0A1D6E9184004EF4BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD22BBE01D6E9184004EF4BF = {
+			isa = PBXGroup;
+			children = (
+				DD22BC1F1D6E91AD004EF4BF /* StoryboardEncapsulation */,
+				DD22BBEB1D6E9184004EF4BF /* Storyboard */,
+				DD22BC051D6E9184004EF4BF /* StoryboardTests */,
+				DD22BC101D6E9184004EF4BF /* StoryboardUITests */,
+				DD22BBEA1D6E9184004EF4BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD22BBEA1D6E9184004EF4BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD22BBE91D6E9184004EF4BF /* Storyboard.app */,
+				DD22BC021D6E9184004EF4BF /* StoryboardTests.xctest */,
+				DD22BC0D1D6E9184004EF4BF /* StoryboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD22BBEB1D6E9184004EF4BF /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DD22BBEF1D6E9184004EF4BF /* AppDelegate.h */,
+				DD22BBF01D6E9184004EF4BF /* AppDelegate.m */,
+				DD22BBF21D6E9184004EF4BF /* ViewController.h */,
+				DD22BBF31D6E9184004EF4BF /* ViewController.m */,
+				DD22BBF51D6E9184004EF4BF /* Main.storyboard */,
+				DD22BBF81D6E9184004EF4BF /* Assets.xcassets */,
+				DD22BBFA1D6E9184004EF4BF /* LaunchScreen.storyboard */,
+				DD22BBFD1D6E9184004EF4BF /* Info.plist */,
+				DD22BBEC1D6E9184004EF4BF /* Supporting Files */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		DD22BBEC1D6E9184004EF4BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD22BBED1D6E9184004EF4BF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD22BC051D6E9184004EF4BF /* StoryboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD22BC061D6E9184004EF4BF /* StoryboardTests.m */,
+				DD22BC081D6E9184004EF4BF /* Info.plist */,
+			);
+			path = StoryboardTests;
+			sourceTree = "<group>";
+		};
+		DD22BC101D6E9184004EF4BF /* StoryboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD22BC111D6E9184004EF4BF /* StoryboardUITests.m */,
+				DD22BC131D6E9184004EF4BF /* Info.plist */,
+			);
+			path = StoryboardUITests;
+			sourceTree = "<group>";
+		};
+		DD22BC1F1D6E91AD004EF4BF /* StoryboardEncapsulation */ = {
+			isa = PBXGroup;
+			children = (
+				DD22BC371D6E92FC004EF4BF /* TextFiend */,
+				DD22BC331D6E92D5004EF4BF /* Button */,
+				DD22BC2F1D6E92B9004EF4BF /* Validation */,
+				DD22BC2B1D6E9285004EF4BF /* UIColor */,
+				DD22BC271D6E924E004EF4BF /* Label */,
+				DD22BC201D6E91FC004EF4BF /* PayTreasure */,
+			);
+			name = StoryboardEncapsulation;
+			sourceTree = "<group>";
+		};
+		DD22BC201D6E91FC004EF4BF /* PayTreasure */ = {
+			isa = PBXGroup;
+			children = (
+				DD22BC211D6E9225004EF4BF /* GSNoSelectionTextField.h */,
+				DD22BC221D6E9225004EF4BF /* GSNoSelectionTextField.m */,
+				DD22BC231D6E9225004EF4BF /* GSPasswordInputView.h */,
+				DD22BC241D6E9225004EF4BF /* GSPasswordInputView.m */,
+			);
+			name = PayTreasure;
+			sourceTree = "<group>";
+		};
+		DD22BC271D6E924E004EF4BF /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				DD22BC281D6E9259004EF4BF /* YDCustomBorderLabel.h */,
+				DD22BC291D6E9259004EF4BF /* YDCustomBorderLabel.m */,
+			);
+			name = Label;
+			sourceTree = "<group>";
+		};
+		DD22BC2B1D6E9285004EF4BF /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				DD22BC2C1D6E9296004EF4BF /* UIColor+UIColor_Hex.h */,
+				DD22BC2D1D6E9296004EF4BF /* UIColor+UIColor_Hex.m */,
+			);
+			name = UIColor;
+			sourceTree = "<group>";
+		};
+		DD22BC2F1D6E92B9004EF4BF /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				DD22BC301D6E92C3004EF4BF /* GSCountDownButton.h */,
+				DD22BC311D6E92C3004EF4BF /* GSCountDownButton.m */,
+			);
+			name = Validation;
+			sourceTree = "<group>";
+		};
+		DD22BC331D6E92D5004EF4BF /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				DD22BC341D6E92DF004EF4BF /* GSCustomButton.h */,
+				DD22BC351D6E92DF004EF4BF /* GSCustomButton.m */,
+			);
+			name = Button;
+			sourceTree = "<group>";
+		};
+		DD22BC371D6E92FC004EF4BF /* TextFiend */ = {
+			isa = PBXGroup;
+			children = (
+				DD22BC381D6E9308004EF4BF /* GSCusteomTextField.h */,
+				DD22BC391D6E9308004EF4BF /* GSCusteomTextField.m */,
+			);
+			name = TextFiend;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD22BBE81D6E9184004EF4BF /* Storyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD22BC161D6E9184004EF4BF /* Build configuration list for PBXNativeTarget "Storyboard" */;
+			buildPhases = (
+				DD22BBE51D6E9184004EF4BF /* Sources */,
+				DD22BBE61D6E9184004EF4BF /* Frameworks */,
+				DD22BBE71D6E9184004EF4BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Storyboard;
+			productName = Storyboard;
+			productReference = DD22BBE91D6E9184004EF4BF /* Storyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD22BC011D6E9184004EF4BF /* StoryboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD22BC191D6E9184004EF4BF /* Build configuration list for PBXNativeTarget "StoryboardTests" */;
+			buildPhases = (
+				DD22BBFE1D6E9184004EF4BF /* Sources */,
+				DD22BBFF1D6E9184004EF4BF /* Frameworks */,
+				DD22BC001D6E9184004EF4BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD22BC041D6E9184004EF4BF /* PBXTargetDependency */,
+			);
+			name = StoryboardTests;
+			productName = StoryboardTests;
+			productReference = DD22BC021D6E9184004EF4BF /* StoryboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD22BC0C1D6E9184004EF4BF /* StoryboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD22BC1C1D6E9184004EF4BF /* Build configuration list for PBXNativeTarget "StoryboardUITests" */;
+			buildPhases = (
+				DD22BC091D6E9184004EF4BF /* Sources */,
+				DD22BC0A1D6E9184004EF4BF /* Frameworks */,
+				DD22BC0B1D6E9184004EF4BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD22BC0F1D6E9184004EF4BF /* PBXTargetDependency */,
+			);
+			name = StoryboardUITests;
+			productName = StoryboardUITests;
+			productReference = DD22BC0D1D6E9184004EF4BF /* StoryboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD22BBE11D6E9184004EF4BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = r_zhous;
+				TargetAttributes = {
+					DD22BBE81D6E9184004EF4BF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DD22BC011D6E9184004EF4BF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DD22BBE81D6E9184004EF4BF;
+					};
+					DD22BC0C1D6E9184004EF4BF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DD22BBE81D6E9184004EF4BF;
+					};
+				};
+			};
+			buildConfigurationList = DD22BBE41D6E9184004EF4BF /* Build configuration list for PBXProject "Storyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD22BBE01D6E9184004EF4BF;
+			productRefGroup = DD22BBEA1D6E9184004EF4BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD22BBE81D6E9184004EF4BF /* Storyboard */,
+				DD22BC011D6E9184004EF4BF /* StoryboardTests */,
+				DD22BC0C1D6E9184004EF4BF /* StoryboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD22BBE71D6E9184004EF4BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD22BBFC1D6E9184004EF4BF /* LaunchScreen.storyboard in Resources */,
+				DD22BBF91D6E9184004EF4BF /* Assets.xcassets in Resources */,
+				DD22BBF71D6E9184004EF4BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD22BC001D6E9184004EF4BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD22BC0B1D6E9184004EF4BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD22BBE51D6E9184004EF4BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD22BBF41D6E9184004EF4BF /* ViewController.m in Sources */,
+				DD22BC251D6E9225004EF4BF /* GSNoSelectionTextField.m in Sources */,
+				DD22BC2A1D6E9259004EF4BF /* YDCustomBorderLabel.m in Sources */,
+				DD22BBF11D6E9184004EF4BF /* AppDelegate.m in Sources */,
+				DD22BC3A1D6E9308004EF4BF /* GSCusteomTextField.m in Sources */,
+				DD22BC2E1D6E9296004EF4BF /* UIColor+UIColor_Hex.m in Sources */,
+				DD22BC321D6E92C3004EF4BF /* GSCountDownButton.m in Sources */,
+				DD22BC261D6E9225004EF4BF /* GSPasswordInputView.m in Sources */,
+				DD22BBEE1D6E9184004EF4BF /* main.m in Sources */,
+				DD22BC361D6E92DF004EF4BF /* GSCustomButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD22BBFE1D6E9184004EF4BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD22BC071D6E9184004EF4BF /* StoryboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD22BC091D6E9184004EF4BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD22BC121D6E9184004EF4BF /* StoryboardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD22BC041D6E9184004EF4BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD22BBE81D6E9184004EF4BF /* Storyboard */;
+			targetProxy = DD22BC031D6E9184004EF4BF /* PBXContainerItemProxy */;
+		};
+		DD22BC0F1D6E9184004EF4BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD22BBE81D6E9184004EF4BF /* Storyboard */;
+			targetProxy = DD22BC0E1D6E9184004EF4BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD22BBF51D6E9184004EF4BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD22BBF61D6E9184004EF4BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD22BBFA1D6E9184004EF4BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD22BBFB1D6E9184004EF4BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD22BC141D6E9184004EF4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD22BC151D6E9184004EF4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD22BC171D6E9184004EF4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Storyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Umeng.Storyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD22BC181D6E9184004EF4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Storyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Umeng.Storyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD22BC1A1D6E9184004EF4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StoryboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Umeng.StoryboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Storyboard.app/Storyboard";
+			};
+			name = Debug;
+		};
+		DD22BC1B1D6E9184004EF4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StoryboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Umeng.StoryboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Storyboard.app/Storyboard";
+			};
+			name = Release;
+		};
+		DD22BC1D1D6E9184004EF4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StoryboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Umeng.StoryboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Storyboard;
+			};
+			name = Debug;
+		};
+		DD22BC1E1D6E9184004EF4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StoryboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Umeng.StoryboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Storyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD22BBE41D6E9184004EF4BF /* Build configuration list for PBXProject "Storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD22BC141D6E9184004EF4BF /* Debug */,
+				DD22BC151D6E9184004EF4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD22BC161D6E9184004EF4BF /* Build configuration list for PBXNativeTarget "Storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD22BC171D6E9184004EF4BF /* Debug */,
+				DD22BC181D6E9184004EF4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD22BC191D6E9184004EF4BF /* Build configuration list for PBXNativeTarget "StoryboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD22BC1A1D6E9184004EF4BF /* Debug */,
+				DD22BC1B1D6E9184004EF4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD22BC1C1D6E9184004EF4BF /* Build configuration list for PBXNativeTarget "StoryboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD22BC1D1D6E9184004EF4BF /* Debug */,
+				DD22BC1E1D6E9184004EF4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD22BBE11D6E9184004EF4BF /* Project object */;
+}
