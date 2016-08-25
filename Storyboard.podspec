@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.author       = { "zhouzhiqiang1" => "zhou83955@sina.com" }
 
-  s.source       = { :git => "git@github.com:zhouzhiqiang1/encapsulation.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/zhouzhiqiang1/encapsulation.git", :tag => s.version }
 
   s.source_files  = "StoryboardEncapsulation/*.{h,m}"
   
